@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    margin:0;
+    padding-top: 70px;
+}
+
+#title-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: black;
+    padding: 0.7em;
+    z-index: 1000;
+    text-align: left;
+}
+
+#title-tab {
+    width: 410px;
+    display: block;
+    margin: 0 auto;
+}
+
+#banner{
+    width:100%;
+    max-width: 100%;
+    height:auto;
+    display: block;
+}
+
+#below-banner{
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
+#description{
+    color:white;
+    width: 800px;
+    font-family: Bahnschrift;
+    font-weight: lighter;
+    font-size: large;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#under-banner-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.links-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    width: 30em;
+    height: 30em;
+    margin: 2em;
+    transition: ease-in, 0.25s;
+}
+
+.link:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.image-button{
+    display: block;
+    margin: 0 auto;
+    padding: 3px;
+    color: white;
+    background: black;
+    font-weight: bold;
+    border: none;
+    font-size: 30px;
+    transition: ease-in, 0.35s;
+}
+
+.image-button:hover{
+    color: #ee1111;
+    cursor: pointer;
+}
